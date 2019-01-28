@@ -13,6 +13,7 @@ Metod | SERVIS | Açıklama
 ------------- | ------------- | -------------
 POST | SendCode | Numaraya rastgele bir doğrulama kodu gönderir.
 POST | SendSpecialCode | Numaraya sizin belirlediğiniz bir doğrulama kodu gönderir.
+POST | SendMessage | Numaraya sizin belirlediğiniz bir mesajı gönderir.
 
 # Service Post Fields
 
@@ -28,3 +29,11 @@ Input | Durum | Açıklama
 ------------- | ------------- | -------------
 number | Gerekli | Mesaj atılacak kişinin numarası
 code | Gerekli | Gönderilecek mesaj(min : 3, max : 8 karakter)
+numarası
+
+## SendMessage Servisi
+
+Input | Durum | Açıklama
+------------- | ------------- | -------------
+number | Gerekli | Mesaj atılacak kişinin numarası
+message | Gerekli | Gönderilecek mesaj
